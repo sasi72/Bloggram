@@ -1,0 +1,20 @@
+<%- include("partials/header.ejs") %>
+<div class="form-signin w-50 container shadow-lg rounded-4 py-1">
+  <form action="/submit" method="POST">
+    <div class="form-floating my-3">
+      <input type="name" class="form-control" id="floatingInput" name="user" placeholder="Your Name">
+      <label for="floatingInput">Your Name</label>
+    </div>
+
+    <div class="form-floating my-3">
+      <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
+      <label for="floatingPassword">Email</label>
+    </div>
+    <div class="form-floating my-3">
+      <input type="comment" class="form-control" id="floatingComment" placeholder="Comment" style="height: 150px;">
+      <label for="floatingComment">Comment</label>
+    </div>
+    <button class="btn btn-primary w-100 mb-3 fw-bold" type="submit">Submit Feedback</button>
+  </form>
+</div>
+<%- include("partials/footer.ejs") %>
