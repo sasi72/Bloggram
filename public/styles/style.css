@@ -47,5 +47,19 @@ main {
 }
 
 h1 {
-  color: #093394;
+  color: #020814;
 }
+
+.custom-btn {
+    background-color: #0AA1DD; 
+    color: #052f85; 
+    border: none;
+    transition: 0.3s; 
+}
+
+.custom-btn:hover {
+    background-color: #7da9eed7; 
+    color: #1565d6;
+    cursor: pointer;  
+}
+
